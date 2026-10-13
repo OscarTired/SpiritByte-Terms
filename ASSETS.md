@@ -1,8 +1,8 @@
-# Procedencia de los recursos
+# Asset attribution
 
-- `assets/fox.png`: copia del logotipo existente en `D:/SpiritByte-Android/docs/logo.png`, proyecto SpiritByte de Octa_Dev. No es una imagen generada para esta web.
-- `assets/geist-pixel-square.woff2`: copia de `D:/SpireByte-V2/public/fonts/GeistPixel-Square.woff2`. Geist Pixel, The Geist Project Authors, SIL Open Font License 1.1. Se incluye `assets/Geist-OFL.txt`.
-- `assets/SpiritByte-MIT.txt`: licencia original de `D:/SpiritByte-Android/LICENSE` que identifica a Octa_Dev y Oscar (OscarTired).
-- Las flechas SVG son iconos geométricos de un único trazo definidos en el HTML; no se utiliza ninguna biblioteca externa.
+- **SpiritByte fox:** existing logo from the [SpiritByte Android project](https://github.com/OscarTired/SpiritByte-Android), by Octa_Dev / OscarTired. Reused for the website; no new image was generated.
+- **Geist Pixel Square:** The Geist Project Authors, distributed under [SIL Open Font License 1.1](assets/Geist-OFL.txt). The font is hosted locally.
+- **SpiritByte software license:** [MIT License](assets/SpiritByte-MIT.txt), copyright Octa_Dev and Oscar (OscarTired).
+- **Arrow icons:** simple SVG geometry defined in the site's HTML, without an external icon library.
 
-No se descargan fuentes, imágenes ni scripts de terceros cuando se abre una página.
+The website loads its fonts, images and scripts locally, without third-party asset requests.

@@ -1,0 +1,158 @@
+{
+  "lang": "es",
+  "skip": "Saltar al contenido",
+  "home_label": "SpiritByte, inicio",
+  "nav_label": "Navegación principal",
+  "nav_privacy": "Privacidad",
+  "nav_terms": "Términos",
+  "nav_contact": "Contacto",
+  "language_label": "Idioma",
+  "footer_note": "Tu información permanece en tus manos.",
+  "developer": "Desarrollado por Octa_Dev",
+  "back": "← Volver al inicio",
+  "updated": "Última actualización:",
+  "date": "13 de octubre de 2026",
+  "print": "Imprimir documento",
+  "contents": "En este documento",
+  "summary_heading": "Antes de empezar",
+  "top": "Volver arriba ↑",
+  "home": {
+    "title": "Privacidad y términos",
+    "description": "Política de privacidad y términos de SpiritByte Android. Una bóveda local, cifrada y sin cuentas, desarrollada por Octa_Dev.",
+    "heading": "Tu bóveda.",
+    "heading_second": "Tus reglas.",
+    "lead": "La privacidad también se explica.<br> Conoce cómo SpiritByte Android protege tus datos y cuáles son sus condiciones de uso.",
+    "action": "Leer la política de privacidad",
+    "note": "Sin cuentas. Sin servidores. Sin conexión.",
+    "documents_heading": "Todo, por escrito.",
+    "documents_intro": "Información clara para usar tu bóveda con confianza.",
+    "privacy_title": "Política de privacidad",
+    "privacy_intro": "Datos locales, cifrado, respaldos y eliminación.",
+    "terms_title": "Términos y condiciones",
+    "terms_intro": "Uso de la aplicación, recuperación y responsabilidades.",
+    "read": "Leer documento",
+    "local_heading": "Lo que guardas se queda contigo.",
+    "local_body": "SpiritByte Android almacena tu bóveda cifrada en tu dispositivo. Octa_Dev no recibe tus contraseñas ni puede recuperar tu bóveda. Los respaldos se exportan únicamente cuando tú lo decides.",
+    "backup_link": "Entender los respaldos",
+    "contact_heading": "¿Tienes una consulta?",
+    "contact_intro": "Privacidad, soporte o preguntas sobre estos documentos."
+  },
+  "privacy": {
+    "title": "Política de privacidad",
+    "heading": "Política de privacidad.",
+    "description": "Cómo SpiritByte Android maneja tus datos: almacenamiento local, cifrado, respaldos, portapapeles y eliminación. Contacto: Octa_Dev.",
+    "intro": "Qué datos maneja SpiritByte, dónde permanecen y cómo puedes eliminarlos.",
+    "summary": "Tus credenciales se procesan en tu dispositivo. Octa_Dev no recibe tu bóveda, no tiene tus claves y no puede recuperar tus secretos. Si exportas un respaldo, tú eliges dónde guardarlo.",
+    "sections": [
+      {
+        "id": "responsable",
+        "heading": "Responsable y alcance",
+        "html": "<p>Octa_Dev es el desarrollador de <strong>SpiritByte Android</strong> (identificador de aplicación <code>com.spiritbyte.android</code>) y el responsable de las comunicaciones de privacidad relacionadas con la aplicación. Puedes contactar con nosotros en <a href=\"mailto:oscar@octa-dev.com\">oscar@octa-dev.com</a>.</p><p>Esta política describe el tratamiento de datos de la aplicación Android y, por separado, el de este sitio informativo. La aplicación es un gestor de contraseñas local: no requiere una cuenta con Octa_Dev, no dispone de servidores de sincronización y no solicita permiso de acceso a Internet.</p>"
+      },
+      {
+        "id": "datos",
+        "heading": "Datos que maneja la aplicación",
+        "html": "<p>La aplicación trata en tu dispositivo la información necesaria para gestionar tu bóveda. Que los datos permanezcan localmente no significa que no sean sensibles.</p><div class=\"table-wrap\"><table><caption>Información local y su finalidad</caption><thead><tr><th scope=\"col\">Información</th><th scope=\"col\">Para qué se utiliza</th></tr></thead><tbody><tr><th scope=\"row\">Credenciales y notas</th><td>Títulos, nombres de usuario, contraseñas, direcciones web, notas y favoritos que introduces para consultarlos y administrarlos.</td></tr><tr><th scope=\"row\">Carpetas y metadatos</th><td>Nombres, jerarquía, iconos, colores e identificadores y fechas de los registros para organizar la bóveda.</td></tr><tr><th scope=\"row\">Contraseña maestra y recuperación</th><td>Proteger y desbloquear la bóveda, y permitir la recuperación local mediante una frase de 12 palabras. No se envían a Octa_Dev.</td></tr><tr><th scope=\"row\">Preferencias e imágenes</th><td>Guardar la apariencia elegida. Si seleccionas una imagen o GIF de fondo, la aplicación guarda una copia local para mostrarla.</td></tr><tr><th scope=\"row\">Archivos de respaldo</th><td>Importar y exportar los respaldos cifrados que eliges mediante el selector de documentos de Android.</td></tr></tbody></table></div><p>Los datos de la bóveda y las preferencias se almacenan en el espacio privado de la aplicación. SpiritByte no accede a tu ubicación, contactos, micrófono ni cámara para proporcionar estas funciones.</p>"
+      },
+      {
+        "id": "recopilacion",
+        "heading": "Recopilación y terceros",
+        "html": "<p><strong>Octa_Dev no recopila ni recibe el contenido de tu bóveda a través de SpiritByte Android.</strong> La versión descrita en esta política no incorpora publicidad, rastreadores, analítica de uso ni SDK de envío de informes de fallos. No vendemos tus datos ni los utilizamos para publicidad.</p><p>La aplicación no transmite automáticamente tus credenciales a terceros. Android y Google Play pueden tratar información de distribución, seguridad o diagnóstico de acuerdo con sus propias configuraciones y políticas; ese tratamiento es distinto del realizado por SpiritByte.</p><p>Si decides enviar un correo de soporte, recibiremos tu dirección de correo y el contenido que incluyas. Lo utilizaremos para atender tu consulta, no para acceder a tu bóveda. No envíes contraseñas, frases de recuperación ni archivos con secretos.</p>"
+      },
+      {
+        "id": "seguridad",
+        "heading": "Cifrado y seguridad",
+        "html": "<p>El motor local utiliza <strong>Argon2id</strong> para la derivación de claves y <strong>XChaCha20-Poly1305</strong> para el cifrado autenticado de la bóveda y los respaldos. La aplicación se bloquea al pasar a segundo plano y después de dos minutos de inactividad; también restringe las capturas de pantalla y excluye sus datos de la copia de seguridad automática de Android.</p><p>Los datos deben descifrarse en memoria para mostrarlos y editarlos mientras la bóveda está desbloqueada. No afirmamos un borrado garantizado de todos los datos en memoria ni una protección absoluta frente a dispositivos comprometidos, software malicioso o acceso físico a un dispositivo desbloqueado.</p><p>Elige una contraseña maestra robusta, mantén actualizado el dispositivo y conserva la frase de recuperación en un lugar seguro.</p>"
+      },
+      {
+        "id": "respaldos",
+        "heading": "Respaldos y archivos elegidos por ti",
+        "html": "<p>La exportación genera un archivo <code>.spiritbyte</code> cifrado con la contraseña de respaldo que eliges. El archivo se cifra antes de entregarse al selector de documentos de Android. La frase de recuperación de la bóveda no desbloquea un respaldo exportado.</p><p>El destino lo eliges tú: almacenamiento del dispositivo o un proveedor disponible en el selector de Android. Si eliges un servicio en la nube, dicho proveedor recibirá el archivo cifrado y aplicará su propia política de privacidad. Esto no constituye sincronización automática de SpiritByte.</p><p>Las copias exportadas permanecen en sus destinos aunque borres registros o desinstales la aplicación. Debes eliminarlas por separado, incluyendo las copias de otros dispositivos, servicios o papeleras. Los fondos y las preferencias visuales no forman parte del respaldo de la bóveda.</p>"
+      },
+      {
+        "id": "portapapeles",
+        "heading": "Portapapeles",
+        "html": "<p>Cuando utilizas la opción de copiar la frase de recuperación, esa información se coloca en el portapapeles de Android. Se marca como contenido sensible en las versiones compatibles, para limitar su previsualización.</p><p>El portapapeles es una función del sistema y puede quedar expuesto según la versión de Android, los permisos y las aplicaciones instaladas. Evita pegar información sensible en aplicaciones no confiables y borra el portapapeles después de usarla. SpiritByte no garantiza su eliminación automática.</p>"
+      },
+      {
+        "id": "eliminacion",
+        "heading": "Conservación y eliminación",
+        "html": "<p>El contenido local se conserva mientras mantengas los datos de la aplicación en tu dispositivo. Puedes editar o eliminar una credencial desde su pantalla en la bóveda. Eliminar una carpeta no elimina las credenciales que contiene.</p><ol><li><strong>Para eliminar toda la información local:</strong> abre Ajustes de Android → Aplicaciones → SpiritByte → Almacenamiento → Borrar datos o Borrar almacenamiento. También puedes desinstalar la aplicación. Los nombres de estas opciones varían entre dispositivos.</li><li><strong>Para eliminar un fondo importado:</strong> utiliza la opción «Eliminar imagen guardada» en la configuración de apariencia.</li><li><strong>Para eliminar respaldos:</strong> borra cada archivo exportado en el destino donde lo guardaste, incluidas sus copias y papeleras.</li></ol><p>Borrar los datos de la aplicación puede hacer que pierdas el acceso a tu bóveda de forma irreversible si no tienes un respaldo utilizable. La eliminación lógica no garantiza que el dispositivo o un proveedor externo sobrescriba físicamente cada copia del archivo.</p><p>No existe una cuenta de usuario con Octa_Dev que debas solicitar eliminar. Tampoco mantenemos una copia central de tu bóveda que podamos borrar o recuperar.</p><p>Los correos de soporte se conservan durante el tiempo necesario para atender y resolver la consulta, incluyendo el seguimiento relacionado. Puedes solicitar su eliminación escribiendo al correo de contacto; si una obligación legal requiere conservar información específica, te informaremos de la razón aplicable.</p>"
+      },
+      {
+        "id": "derechos",
+        "heading": "Consultas y derechos de privacidad",
+        "html": "<p>Puedes solicitar información, corrección o eliminación de los datos de contacto que nos hayas enviado voluntariamente, así como ejercer los derechos que te correspondan según la legislación aplicable, escribiendo a <a href=\"mailto:oscar@octa-dev.com\">oscar@octa-dev.com</a>.</p><p>Como no recibimos los datos de la bóveda, las operaciones de consulta, edición, exportación y eliminación de su contenido se realizan en tu dispositivo. No necesitamos que compartas tus secretos para atender una consulta de privacidad.</p>"
+      },
+      {
+        "id": "menores",
+        "heading": "Uso por menores",
+        "html": "<p>SpiritByte Android es una herramienta de gestión de credenciales y no está diseñada específicamente para niños. No solicitamos la edad ni recopilamos datos de menores a través de la aplicación. Si un menor utiliza la aplicación, su madre, padre o tutor debe acompañar el uso y la custodia de las claves.</p><p>Si crees que un menor nos ha enviado datos personales por correo, contacta con nosotros para que podamos revisar su eliminación.</p>"
+      },
+      {
+        "id": "sitio",
+        "heading": "Privacidad de este sitio web",
+        "html": "<p>Este sitio no incluye formularios, publicidad, analítica ni rastreadores propios, y no instala cookies propias. Si cambias la paleta de color, guardamos esa preferencia en el almacenamiento local de tu navegador. Puedes eliminarla borrando los datos del sitio; no se envía a Octa_Dev.</p><p>Cuando el sitio se aloja en GitHub Pages, GitHub puede registrar información técnica de las visitas, incluida la dirección IP, para prestar y proteger su servicio. Consulta la <a href=\"https://docs.github.com/es/site-policy/privacy-policies/github-general-privacy-statement\" rel=\"noreferrer\">declaración de privacidad de GitHub</a>. Si se cambia de proveedor, se actualizará esta sección.</p><p>Los enlaces de correo abren tu cliente de correo; solo recibimos información si decides enviarnos un mensaje. Esta web no tiene acceso al contenido de tu bóveda Android.</p>"
+      },
+      {
+        "id": "cambios",
+        "heading": "Cambios en esta política",
+        "html": "<p>Actualizaremos esta política cuando cambien las funciones o el tratamiento de datos. La fecha al inicio del documento identifica la versión publicada. Cualquier futura función que transmita datos deberá explicarse en esta política y en la aplicación, con los avisos y permisos que correspondan, antes de su uso.</p><p>Contacto de privacidad: <a href=\"mailto:oscar@octa-dev.com\">oscar@octa-dev.com</a> · Octa_Dev.</p>"
+      }
+    ]
+  },
+  "terms": {
+    "title": "Términos y condiciones",
+    "heading": "Términos y condiciones.",
+    "description": "Condiciones de uso de SpiritByte Android: licencia, custodia de claves, respaldos y recuperación. Desarrollado por Octa_Dev.",
+    "intro": "Las condiciones para usar SpiritByte Android y cuidar tu bóveda.",
+    "summary": "SpiritByte es una herramienta local. Guarda tus claves y mantén respaldos verificables: Octa_Dev no puede desbloquear tu bóveda ni sustituir una contraseña perdida.",
+    "sections": [
+      {
+        "id": "alcance",
+        "heading": "Aplicación y alcance",
+        "html": "<p>Estos términos describen las condiciones de uso de <strong>SpiritByte Android</strong>, desarrollado por <strong>Octa_Dev</strong>. La aplicación permite gestionar credenciales en una bóveda cifrada local, generar contraseñas, organizar registros y transferir respaldos cifrados de forma manual.</p><p>Lee estos términos junto con la <a href=\"privacy.html\">política de privacidad</a>. Si tienes preguntas sobre su aplicación, escribe a <a href=\"mailto:oscar@octa-dev.com\">oscar@octa-dev.com</a>. Ninguna disposición limita los derechos obligatorios que te reconozca la legislación aplicable.</p>"
+      },
+      {
+        "id": "licencia",
+        "heading": "Licencia y componentes",
+        "html": "<p>SpiritByte Android se distribuye bajo la <a href=\"assets/SpiritByte-MIT.txt\" rel=\"noreferrer\">licencia MIT</a>. Dicha licencia regula los permisos para usar, copiar, modificar y distribuir el software, y exige conservar el aviso de copyright y la licencia cuando corresponda.</p><p>Las fuentes, iconos y bibliotecas de terceros conservan sus licencias respectivas. La fuente Geist Pixel utilizada en este sitio se distribuye bajo <a href=\"assets/Geist-OFL.txt\">SIL Open Font License 1.1</a>. Estos términos no reducen los permisos otorgados por las licencias de software aplicables.</p>"
+      },
+      {
+        "id": "uso",
+        "heading": "Uso de la aplicación",
+        "html": "<p>Utiliza la aplicación para almacenar y administrar información que estés autorizado a manejar. No la utilices para vulnerar derechos de terceros o realizar actividades ilegales. Revisa los registros importados y las credenciales antes de utilizarlos.</p><p>La aplicación no crea una cuenta con Octa_Dev y no ofrece sincronización automática. Las funciones de la versión actual no incluyen desbloqueo biométrico ni autocompletado de Android.</p>"
+      },
+      {
+        "id": "claves",
+        "heading": "Custodia de claves y recuperación",
+        "html": "<p>Eres responsable de elegir y custodiar tu contraseña maestra, la frase de recuperación de 12 palabras y las contraseñas de los respaldos. La frase se muestra durante la configuración: guárdala en un lugar seguro, separado del dispositivo cuando sea posible.</p><p><strong>Octa_Dev no conoce tus claves ni puede desbloquear o recuperar tu bóveda.</strong> Si pierdes la contraseña maestra y la frase de recuperación, puedes perder el acceso a sus datos. La frase de recuperación no permite abrir un archivo de respaldo: para ese archivo necesitas su contraseña de respaldo.</p><p>No compartas contraseñas ni frases de recuperación por correo de soporte.</p>"
+      },
+      {
+        "id": "copias",
+        "heading": "Respaldos y pérdida de datos",
+        "html": "<p>Realiza respaldos cifrados de forma periódica y comprueba que puedas importarlos antes de borrar datos, cambiar de dispositivo o reinstalar la aplicación. Conserva una copia segura antes de actualizar o modificar una instalación.</p><p>El respaldo es un archivo que administras tú. Borrar el almacenamiento de SpiritByte o desinstalar la aplicación elimina sus datos locales, pero no elimina los archivos exportados. Las preferencias de apariencia y los fondos no se incluyen en el respaldo de la bóveda.</p><p>La importación añade registros a la bóveda de destino. Importar el mismo respaldo varias veces puede crear duplicados. Revisa el resultado de cada importación.</p>"
+      },
+      {
+        "id": "limites",
+        "heading": "Seguridad y límites del software",
+        "html": "<p>El cifrado reduce el riesgo de exposición de los datos almacenados; no garantiza protección absoluta. La seguridad también depende de la contraseña elegida, el estado del sistema operativo, las aplicaciones instaladas y el acceso al dispositivo.</p><p>Un dispositivo comprometido, el uso del portapapeles, el envío voluntario de secretos o la pérdida de las claves pueden exponer información o impedir su recuperación. El software puede contener errores; una versión identificada como de desarrollo debe evaluarse y probarse antes de confiarle información crítica.</p><p>En la medida permitida por la legislación aplicable y conforme a la licencia MIT, el software se proporciona «tal cual», sin garantías de disponibilidad continua, ausencia de errores o recuperación de datos. Estas condiciones no excluyen obligaciones ni responsabilidades que la ley prohíba excluir.</p>"
+      },
+      {
+        "id": "terceros",
+        "heading": "Servicios de terceros",
+        "html": "<p>Android, Google Play, los clientes de correo y los proveedores elegidos para guardar respaldos operan bajo sus propios términos y políticas. Si seleccionas un proveedor en la nube para exportar un archivo, tú decides su uso y debes revisar sus condiciones.</p><p>Los enlaces de esta web a servicios externos son informativos. No otorgan a esos servicios acceso a tu bóveda mediante este sitio.</p>"
+      },
+      {
+        "id": "actualizaciones",
+        "heading": "Actualizaciones y cambios",
+        "html": "<p>Las futuras versiones pueden modificar funciones o compatibilidad. Antes de actualizar, conserva un respaldo utilizable y revisa las notas de la versión cuando estén disponibles.</p><p>Los cambios de estos términos se publicarán aquí con una fecha actualizada. Si el tratamiento de datos cambia, también se actualizará la política de privacidad y se proporcionarán los avisos que correspondan.</p>"
+      },
+      {
+        "id": "contacto",
+        "heading": "Contacto",
+        "html": "<p>Para soporte o consultas sobre estos términos, contacta con <strong>Octa_Dev</strong> en <a href=\"mailto:oscar@octa-dev.com\">oscar@octa-dev.com</a>. Describe el problema y la versión de la aplicación sin incluir información secreta.</p>"
+      }
+    ]
+  }
+}

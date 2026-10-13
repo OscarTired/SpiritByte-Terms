@@ -1,0 +1,158 @@
+{
+  "lang": "en",
+  "skip": "Skip to content",
+  "home_label": "SpiritByte, home",
+  "nav_label": "Main navigation",
+  "nav_privacy": "Privacy",
+  "nav_terms": "Terms",
+  "nav_contact": "Contact",
+  "language_label": "Language",
+  "footer_note": "Your information stays in your hands.",
+  "developer": "Developed by Octa_Dev",
+  "back": "← Back to home",
+  "updated": "Last updated:",
+  "date": "October 13, 2026",
+  "print": "Print document",
+  "contents": "On this page",
+  "summary_heading": "Before you begin",
+  "top": "Back to top ↑",
+  "home": {
+    "title": "Privacy and terms",
+    "description": "Privacy policy and terms for SpiritByte Android. A local, encrypted vault with no accounts, developed by Octa_Dev.",
+    "heading": "Your vault.",
+    "heading_second": "Your rules.",
+    "lead": "Privacy deserves an explanation.<br> Learn how SpiritByte Android protects your data and understand its terms of use.",
+    "action": "Read the privacy policy",
+    "note": "No accounts. No servers. No connection.",
+    "documents_heading": "All in writing.",
+    "documents_intro": "Clear information to use your vault with confidence.",
+    "privacy_title": "Privacy policy",
+    "privacy_intro": "Local data, encryption, backups and deletion.",
+    "terms_title": "Terms and conditions",
+    "terms_intro": "Using the application, recovery and responsibilities.",
+    "read": "Read document",
+    "local_heading": "What you save stays with you.",
+    "local_body": "SpiritByte Android stores your encrypted vault on your device. Octa_Dev does not receive your passwords and cannot recover your vault. Backups are only exported when you choose to do so.",
+    "backup_link": "Understand backups",
+    "contact_heading": "Have a question?",
+    "contact_intro": "Privacy, support or questions about these documents."
+  },
+  "privacy": {
+    "title": "Privacy policy",
+    "heading": "Privacy policy.",
+    "description": "How SpiritByte Android handles your data: local storage, encryption, backups, clipboard and deletion. Contact: Octa_Dev.",
+    "intro": "What data SpiritByte handles, where it stays and how you can delete it.",
+    "summary": "Your credentials are processed on your device. Octa_Dev does not receive your vault, does not have your keys and cannot recover your secrets. If you export a backup, you choose where to save it.",
+    "sections": [
+      {
+        "id": "responsable",
+        "heading": "Developer and scope",
+        "html": "<p>Octa_Dev is the developer of <strong>SpiritByte Android</strong> (application ID <code>com.spiritbyte.android</code>) and the contact responsible for privacy communications relating to the application. You can reach us at <a href=\"mailto:oscar@octa-dev.com\">oscar@octa-dev.com</a>.</p><p>This policy describes how the Android application handles data and, separately, how this information website does so. The application is a local password manager: it does not require an account with Octa_Dev, has no synchronization servers, and does not request Internet access permission.</p>"
+      },
+      {
+        "id": "datos",
+        "heading": "Data handled by the application",
+        "html": "<p>The application processes the information needed to manage your vault on your device. Keeping data locally does not mean that it is not sensitive.</p><div class=\"table-wrap\"><table><caption>Local information and its purpose</caption><thead><tr><th scope=\"col\">Information</th><th scope=\"col\">Purpose</th></tr></thead><tbody><tr><th scope=\"row\">Credentials and notes</th><td>Titles, usernames, passwords, website addresses, notes and favorites you enter to view and manage them.</td></tr><tr><th scope=\"row\">Folders and metadata</th><td>Names, hierarchy, icons, colors, record identifiers and dates used to organize the vault.</td></tr><tr><th scope=\"row\">Master password and recovery</th><td>Protecting and unlocking the vault, and enabling local recovery with a 12-word phrase. They are not sent to Octa_Dev.</td></tr><tr><th scope=\"row\">Preferences and images</th><td>Saving your chosen appearance. If you select a background image or GIF, the application saves a local copy to display it.</td></tr><tr><th scope=\"row\">Backup files</th><td>Importing and exporting encrypted backups you select through the Android document picker.</td></tr></tbody></table></div><p>Vault data and preferences are stored in the application's private storage. SpiritByte does not access your location, contacts, microphone or camera to provide these features.</p>"
+      },
+      {
+        "id": "recopilacion",
+        "heading": "Collection and third parties",
+        "html": "<p><strong>Octa_Dev does not collect or receive the contents of your vault through SpiritByte Android.</strong> The version described in this policy does not include advertising, trackers, usage analytics or SDKs that send crash reports. We do not sell your data or use it for advertising.</p><p>The application does not automatically transmit your credentials to third parties. Android and Google Play may process distribution, security or diagnostic information according to their own settings and policies; this is separate from processing by SpiritByte.</p><p>If you choose to send a support email, we will receive your email address and the content you include. We will use it to address your inquiry, not to access your vault. Do not send passwords, recovery phrases or files containing secrets.</p>"
+      },
+      {
+        "id": "seguridad",
+        "heading": "Encryption and security",
+        "html": "<p>The local engine uses <strong>Argon2id</strong> for key derivation and <strong>XChaCha20-Poly1305</strong> for authenticated encryption of the vault and backups. The application locks when it goes into the background and after two minutes of inactivity; it also restricts screenshots and excludes its data from Android automatic backups.</p><p>Data must be decrypted in memory to be displayed and edited while the vault is unlocked. We do not claim guaranteed erasure of all data in memory or absolute protection against compromised devices, malicious software or physical access to an unlocked device.</p><p>Choose a strong master password, keep your device updated and store the recovery phrase in a safe place.</p>"
+      },
+      {
+        "id": "respaldos",
+        "heading": "Backups and files you choose",
+        "html": "<p>Exporting creates a <code>.spiritbyte</code> file encrypted with the backup password you choose. The file is encrypted before being passed to the Android document picker. The vault recovery phrase cannot unlock an exported backup.</p><p>You choose the destination: device storage or a provider available in the Android picker. If you choose a cloud service, that provider will receive the encrypted file and apply its own privacy policy. This is not automatic SpiritByte synchronization.</p><p>Exported copies remain in their destinations even if you delete records or uninstall the application. You must delete them separately, including copies on other devices, services or in trash folders. Backgrounds and visual preferences are not part of the vault backup.</p>"
+      },
+      {
+        "id": "portapapeles",
+        "heading": "Clipboard",
+        "html": "<p>When you use the option to copy the recovery phrase, that information is placed on the Android clipboard. It is marked as sensitive content on supported versions to limit its preview.</p><p>The clipboard is a system feature and may be exposed depending on the Android version, permissions and installed applications. Avoid pasting sensitive information into untrusted applications and clear the clipboard after using it. SpiritByte does not guarantee automatic clipboard clearing.</p>"
+      },
+      {
+        "id": "eliminacion",
+        "heading": "Retention and deletion",
+        "html": "<p>Local content is retained while you keep the application's data on your device. You can edit or delete a credential from its screen in the vault. Deleting a folder does not delete the credentials it contains.</p><ol><li><strong>To delete all local information:</strong> open Android Settings → Apps → SpiritByte → Storage → Clear data or Clear storage. You can also uninstall the application. The names of these options vary between devices.</li><li><strong>To delete an imported background:</strong> use the “Delete saved image” option in the appearance settings (called “Eliminar imagen guardada” in the Spanish app interface).</li><li><strong>To delete backups:</strong> delete each exported file from the destination where you saved it, including copies and trash folders.</li></ol><p>Clearing the application's data may cause irreversible loss of access to your vault if you do not have a usable backup. Logical deletion does not guarantee that the device or an external provider physically overwrites every copy of the file.</p><p>There is no user account with Octa_Dev that you need to request to delete. We also do not maintain a central copy of your vault that we can delete or recover.</p><p>Support emails are retained for the time needed to address and resolve the inquiry, including related follow-up. You can request their deletion by writing to our contact email; if a legal obligation requires us to retain specific information, we will inform you of the applicable reason.</p>"
+      },
+      {
+        "id": "derechos",
+        "heading": "Privacy inquiries and rights",
+        "html": "<p>You can request information, correction or deletion of contact data you have voluntarily sent us, and exercise any rights available to you under applicable law, by writing to <a href=\"mailto:oscar@octa-dev.com\">oscar@octa-dev.com</a>.</p><p>Because we do not receive vault data, viewing, editing, exporting and deleting its contents takes place on your device. You do not need to share your secrets for us to address a privacy inquiry.</p>"
+      },
+      {
+        "id": "menores",
+        "heading": "Use by minors",
+        "html": "<p>SpiritByte Android is a credential management tool and is not specifically designed for children. We do not request users' ages or collect children's data through the application. If a minor uses the application, their parent or guardian should supervise its use and the safekeeping of keys.</p><p>If you believe a minor has sent us personal data by email, contact us so we can review its deletion.</p>"
+      },
+      {
+        "id": "sitio",
+        "heading": "Privacy on this website",
+        "html": "<p>This site does not include its own forms, advertising, analytics or trackers, and does not set its own cookies. If you change the color palette, we save that preference in your browser's local storage. You can remove it by clearing the site's data; it is not sent to Octa_Dev.</p><p>When this site is hosted on GitHub Pages, GitHub may record technical visit information, including IP addresses, to provide and protect its service. See <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\" rel=\"noreferrer\">GitHub's privacy statement</a>. This section will be updated if the hosting provider changes.</p><p>Email links open your email client; we only receive information if you choose to send us a message. This website cannot access the contents of your Android vault.</p>"
+      },
+      {
+        "id": "cambios",
+        "heading": "Changes to this policy",
+        "html": "<p>We will update this policy when features or data handling change. The date at the start of this document identifies the published version. Any future feature that transmits data must be explained in this policy and in the application, with the appropriate disclosures and permissions, before it is used.</p><p>Privacy contact: <a href=\"mailto:oscar@octa-dev.com\">oscar@octa-dev.com</a> · Octa_Dev.</p>"
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms and conditions",
+    "heading": "Terms and conditions.",
+    "description": "Terms of use for SpiritByte Android: licensing, safekeeping of keys, backups and recovery. Developed by Octa_Dev.",
+    "intro": "The conditions for using SpiritByte Android and caring for your vault.",
+    "summary": "SpiritByte is a local tool. Safeguard your keys and keep verified backups: Octa_Dev cannot unlock your vault or replace a lost password.",
+    "sections": [
+      {
+        "id": "alcance",
+        "heading": "Application and scope",
+        "html": "<p>These terms describe the conditions for using <strong>SpiritByte Android</strong>, developed by <strong>Octa_Dev</strong>. The application lets you manage credentials in a local encrypted vault, generate passwords, organize records and manually transfer encrypted backups.</p><p>Read these terms together with the <a href=\"privacy.html\">privacy policy</a>. If you have questions about how they apply, write to <a href=\"mailto:oscar@octa-dev.com\">oscar@octa-dev.com</a>. Nothing in these terms limits mandatory rights granted to you by applicable law.</p>"
+      },
+      {
+        "id": "licencia",
+        "heading": "License and components",
+        "html": "<p>SpiritByte Android is distributed under the <a href=\"assets/SpiritByte-MIT.txt\">MIT License</a>. That license governs permission to use, copy, modify and distribute the software, and requires retaining the copyright notice and license where applicable.</p><p>Third-party fonts, icons and libraries retain their respective licenses. The Geist Pixel font used on this site is distributed under the <a href=\"assets/Geist-OFL.txt\">SIL Open Font License 1.1</a>. These terms do not reduce permissions granted by applicable software licenses.</p>"
+      },
+      {
+        "id": "uso",
+        "heading": "Using the application",
+        "html": "<p>Use the application to store and manage information you are authorized to handle. Do not use it to infringe the rights of others or carry out illegal activities. Review imported records and credentials before using them.</p><p>The application does not create an account with Octa_Dev and does not offer automatic synchronization. The current version's features do not include biometric unlocking or Android autofill.</p>"
+      },
+      {
+        "id": "claves",
+        "heading": "Safekeeping of keys and recovery",
+        "html": "<p>You are responsible for choosing and safeguarding your master password, the 12-word recovery phrase and your backup passwords. The phrase is shown during setup: keep it in a safe place, separate from the device where possible.</p><p><strong>Octa_Dev does not know your keys and cannot unlock or recover your vault.</strong> If you lose both the master password and the recovery phrase, you may lose access to its data. The recovery phrase cannot open a backup file: that file requires its backup password.</p><p>Do not share passwords or recovery phrases by support email.</p>"
+      },
+      {
+        "id": "copias",
+        "heading": "Backups and data loss",
+        "html": "<p>Make encrypted backups regularly and verify that you can import them before clearing data, changing devices or reinstalling the application. Keep a safe copy before updating or modifying an installation.</p><p>A backup is a file you manage yourself. Clearing SpiritByte's storage or uninstalling the application removes its local data, but does not remove exported files. Appearance preferences and backgrounds are not included in the vault backup.</p><p>Importing adds records to the destination vault. Importing the same backup multiple times may create duplicates. Review the result of each import.</p>"
+      },
+      {
+        "id": "limites",
+        "heading": "Security and software limitations",
+        "html": "<p>Encryption reduces the risk of exposing stored data; it does not guarantee absolute protection. Security also depends on your chosen password, the state of the operating system, installed applications and access to the device.</p><p>A compromised device, clipboard use, voluntarily sending secrets or losing keys may expose information or prevent its recovery. The software may contain errors; a version identified as a development build should be evaluated and tested before entrusting critical information to it.</p><p>To the extent permitted by applicable law and in accordance with the MIT License, the software is provided “as is”, without guarantees of continuous availability, absence of errors or data recovery. These conditions do not exclude obligations or liabilities that the law does not permit to be excluded.</p>"
+      },
+      {
+        "id": "terceros",
+        "heading": "Third-party services",
+        "html": "<p>Android, Google Play, email clients and the providers you choose to store backups operate under their own terms and policies. If you select a cloud provider to export a file, you decide to use it and should review its conditions.</p><p>Links on this website to external services are informational. They do not give those services access to your vault through this site.</p>"
+      },
+      {
+        "id": "actualizaciones",
+        "heading": "Updates and changes",
+        "html": "<p>Future versions may change features or compatibility. Before updating, keep a usable backup and review the release notes when available.</p><p>Changes to these terms will be published here with an updated date. If data handling changes, the privacy policy will also be updated and the appropriate disclosures will be provided.</p>"
+      },
+      {
+        "id": "contacto",
+        "heading": "Contact",
+        "html": "<p>For support or questions about these terms, contact <strong>Octa_Dev</strong> at <a href=\"mailto:oscar@octa-dev.com\">oscar@octa-dev.com</a>. Describe the issue and the application version without including secret information.</p>"
+      }
+    ]
+  }
+}

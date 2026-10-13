@@ -1,6 +1,6 @@
 ---
 name: SpiritByte legal website
-description: The Android app's Amber CRT identity adapted to readable Spanish legal documents.
+description: The Android app's Amber CRT identity adapted to readable Spanish and English legal documents.
 colors:
   bg: "#0d0c0a"
   surface: "#1a1712"
@@ -84,7 +84,7 @@ components:
 
 This site inherits the existing Android identity because the owner requested the same theme. The app's Amber CRT palette, actual fox logo and Geist Pixel Square headings remain the visual authority. This document records the implementation; it does not establish a replacement identity.
 
-Long Spanish legal text uses system sans-serif, generous leading and a restrained document layout. Pixel type supplies recognition at headings and branding. Decorative CRT scanlines stay inside the fox panel, leaving the reading surface clear.
+Long Spanish and English legal text uses system sans-serif, generous leading and a restrained document layout. Pixel type supplies recognition at headings and branding. Decorative CRT scanlines stay inside the fox panel, leaving the reading surface clear.
 
 **Key Characteristics:**
 
@@ -95,6 +95,8 @@ Long Spanish legal text uses system sans-serif, generous leading and a restraine
 - Local licensed assets and semantic static HTML.
 
 Evidence: `styles.css` supplies the normative web tokens above. `site.js` defines optional palette selection and printing. Identity was compared with `D:/SpiritByte-Android/app/src/main/java/com/spiritbyte/android/SpiritTheme.kt` and the viewed `D:/SpiritByte-Android/docs/screenshots/apariencia.png`, which shows Amber CRT and Geist Pixel Square selected. `ASSETS.md` records the fox source, font source and licenses. This comparison makes no Google Play approval or publication claim.
+
+Bilingual implementation evidence: `scripts/build.py` generates six static pages from `content/es.json` and `content/en.json`: Spanish home, privacy and terms at the root, and equivalent English pages under `en/`. Both languages share the same assets, CSS, layout and existing visual world. The generator requires matching legal-section IDs between translations.
 
 ## Colors
 
@@ -151,6 +153,8 @@ Legal documents use a (240px) contents column and flexible reading column, separ
 
 Desktop header minimum height is (116px); mobile branding and navigation stack. The three-column footer also stacks on mobile. Print styles provide white paper, dark ink, body text (11pt), document heading (28pt) and single-column legal content; interactive navigation and controls are hidden.
 
+The header's navigation and visible language switch share a flex wrapper that wraps with a (28px) gap. On mobile the gap reduces to (14px), allowing both languages to remain accessible without clipping or a hidden menu.
+
 ## Elevation & Depth
 
 There are no box shadows. Depth comes from tonal panel contrast, thin borders and spacing. The fox panel alone adds stationary scanlines with a faint black stripe every (4px) and fine amber corner brackets. Text surfaces remain unobscured.
@@ -181,7 +185,13 @@ Header navigation is muted at rest, amber and underlined on hover or current pag
 
 ### Reading preference and print action
 
-The native select has a surface fill and thin border, labeled `Paleta de lectura`. JavaScript adds it; it aligns right on desktop and left on mobile. The optional print button is a small underlined text action. Legal HTML and anchors remain usable without either enhancement.
+The native select has a surface fill and thin border, labeled `Paleta de lectura` in Spanish and `Reading palette` in English. JavaScript adds it based on the document language; it aligns right on desktop and left on mobile. The optional print button is a small underlined text action labeled `Imprimir documento` or `Print document`, supplied by the content files. Legal HTML and anchors remain usable without either enhancement.
+
+### Language switch
+
+The visible `Español` / `English` navigation links to the equivalent document in the other language, rather than always returning to home. It uses system text (12px), link padding (8px 11px), the inherited thin border and control radius, and no gap between its two links. The current language uses primary text on the surface fill with `aria-current="true"`; links retain the shared keyboard-focus outline. Hover uses the established underline with a (4px) offset.
+
+The links are present in static HTML with language and alternate-language attributes, so document switching works without JavaScript. `site.js` progressively enhances a switch click by appending the current URL fragment to the equivalent-page link. Shared section IDs preserve the reader's matching section across languages. This adds bilingual navigation without changing the palette or typographic hierarchy.
 
 ### Fox panel
 
